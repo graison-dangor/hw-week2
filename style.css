@@ -1,0 +1,44 @@
+/* TC's template */
+
+/* Reset */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/* Start your base/mobile styles here */
+html, body {
+    font-size: 16px;
+    margin: 20px;
+    display: block;
+    font-family: serif;
+    font-family: 'Asul', sans-serif;
+}
+
+
+
+h1 {
+  font-family: 'Arvo', serif;
+}
+
+h3, h5 {
+  font-family: 'Asul', sans-serif;
+}
+
+
+img, figcaption {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  text-align: left;
+  font-family: 'Asul', sans-serif;
+  font-size: 14px;
+}
+
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}
